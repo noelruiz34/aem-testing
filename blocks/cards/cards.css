@@ -1,15 +1,87 @@
 .cards > ul {
-  list-style: none;
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
-  grid-gap: 16px;
 }
+
+.resources > ul > li > *:last-child  {
+  position: relative;
+}
+
+.cards .cards-card-body > *:first-child {
+  margin-top: 0;
+}
+
+/* .featured > ul {
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+
+.popular > ul {
+  grid-template-columns: repeat(auto-fill, minmax(212px, 1fr));
+}
+
+.resources > ul {
+} */
+
+.resources > ul > li {
+  font-size: .8rem;
+  max-width: 295px!important;
+  margin: 5px!important;
+  border-radius: 4px;
+} 
+
+.resources > ul > li img {
+  margin-top: 0!important;
+  object-fit: cover;
+  max-width:100px;
+  max-height: 100px;
+}
+
+.resources > ul > li p {
+  margin-top: 0;
+  margin-bottom: .75em;
+}
+
+
+.resources > ul > li > *:last-child > *:first-child {
+  height: 60px;
+}
+
+.resources > ul > li hr {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.resources > .button-container.button {
+  position: absolute;
+  bottom: 20px;
+  color: #0a0a0a;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  padding: 10px;
+} 
+
+.cards-wrapper:has(> .resources ) {
+  max-width: 70%;
+  padding: 0 212px;
+} 
 
 .cards > ul > li {
   border: 1px solid var(--dark-color);
-  background-color: var(--background-color)
+  background-color: var(--background-color);
+  margin: 20px;
+  max-width:212px;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  flex: 0 1 100%; /* Default */
+  list-style-type: none;
 }
 
 .cards .cards-card-body {
@@ -20,12 +92,47 @@
   line-height: 0;
 }
 
-.cards .cards-card-body > *:first-child {
-  margin-top: 0;
+.cards > ul > li img {
+  margin-top:15px;
+  object-fit: cover;
+  max-width: 80px;
+  max-height: 80px;
 }
 
-.cards > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+/* titles: Featured Categories, Most Popular, Resources, etc. */
+h2 {
+  text-align:center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.popular .button, .featured .button {
+  display: inline !important;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0 !important;
+  padding: 0 !important;
+  text-align: center;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+  font-size: 16px !important;
+  color: #0469e3 !important;
+  background-color: #fff !important;
+  margin: 0 !important;
+  white-space: normal !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 0 !important;
+}
+
+.cards-card-body p u {
+  color: #d8d8d8;
+  font-size: 12px;
+}
+
+.cards-card-body p strong {
+  color: #000;
+  font-size: 21px;
+  font-weight: 300;
 }

@@ -208,3 +208,9 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+main .section .default-content-wrapper p{
+  border: 2px solid #aeafb1;
+  font-size: 13.6px;
+  padding: 22px;
+}

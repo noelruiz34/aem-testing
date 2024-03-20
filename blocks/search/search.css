@@ -1,0 +1,35 @@
+.divider {
+  height: 55px;
+  background-color: #31302b;
+  position: relative;
+  top: 95px;
+  right: 4500px;  
+  width: 9999px;
+  z-index: 900;
+}
+
+
+
+
+.search {
+  background-color: #fff;
+  height: 35px;
+  width: 400px;
+  font-size: 14px;
+  position: relative;
+  top: 50px;
+  right: 644px;
+  padding: 0;
+  text-align: right; 
+  vertical-align: baseline;    
+  z-index: 900;
+}
+
+.version-info{
+  position: relative;
+  z-index: 1000;
+  color: white;
+  font-size: 14px;
+  top: 22px;
+  left: 313px;
+}

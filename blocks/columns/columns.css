@@ -30,4 +30,189 @@
     flex: 1;
     order: unset;
   }
+
+  .columns > div > div.form-wrapper {
+    max-width: 350px;
+  }
+}
+
+.columns.product-details > div {
+    align-items: normal;
+}
+
+.columns.product-details table:nth-child(1) {
+    display: block;
+    margin-bottom: -.5em;
+}
+
+.columns.product-details table:nth-child(1) > tbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.columns.product-details table:nth-child(1) > tbody > tr:nth-child(1) {
+    width: 62px;
+    border: solid 1px #aeafb1;
+    height: 62px;
+    margin-right: 20px;
+}
+
+.columns.product-details table:nth-child(1) > tbody > tr:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.columns.product-details table:nth-child(1) > tbody > tr:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.columns.product-details table:nth-child(1) > tbody > tr:nth-child(2) > td:first-child {
+    color: #000;
+    font-size: 28px;
+    margin-top: -5px;
+}
+
+.columns.product-details table:nth-child(1) > tbody > tr:nth-child(2) > td:last-child {
+    font-size: 14px;
+    color: #8E8E8E;
+}
+
+.columns.product-details table:nth-child(1) > tbody > tr:nth-child(3) > td:first-child {
+    height: 35px;
+    width: 74px;
+}
+/*to make all the sections closer together*/
+div.section{
+  padding: 4px;
+}
+/*for the message at the top of the page*/
+div[data-class="payment-message"]{
+  padding: 64px 4px 0px 4px;
+}
+
+/* css for all of the titles of sections including the Back to Top link*/
+[class*="title"] p{
+  font-size: 30px;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: -5px;
+}
+
+[class*="title"] a{
+  font-size: 11px;
+  font-weight: 600;
+  background-color: white;
+  color: #0469e3;
+  float: right;
+  position: relative;
+  bottom: -30px;
+}
+
+/*Quality report section*/ 
+.columns.quality-report p{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.columns.quality-report a{
+  font-size: 15px;
+  background-color: white;
+  color: #0469e3;
+  font-weight: 400;
+  margin-top: 0px;
+  padding: 5px 30px 5px 0px;
+}
+
+.columns.quality-report-message{
+  font-size: 16px;
+}
+
+/*Release Notes section*/
+.columns.release-notes-section{
+  font-size: 14px;
+}
+
+.columns.release-notes-section h3{
+  font-size: 21px;
+}
+
+/*Support section*/
+.columns.support-section{
+    font-size: 14px;
+}
+
+.columns.support-section a{
+    font-size: 14px;
+    font-weight:600;
+    background-color: white;
+    color: #0469e3;
+    border: 1px solid #0469e3;
+    transition: .5s;
+    border-radius: 3px;
+    padding: 4px 70px;
+}
+
+.columns.support-section a:hover{
+    background-color: #008697;
+    color: white;
+    border: 1px solid #008697;
+}
+
+/*Become a Partner section*/
+.columns.partner {
+  	font-size: 14.5px;
+ 	  background-color: #F1F1EF;
+ 	  text-align: center;
+ 	  padding: 10px;
+}
+
+[data-class=partner-section]{
+	  background-color: #F1F1EF;
+	  padding: 10px;
+}
+
+.columns.partner a{
+	  border-radius: 3px;
+	  background-color: white;
+	  color: #f16321;
+	  border: 1px solid #f16321;
+	  transition: .5s;
+	  font-size: 14px;
+	  font-style: bold;
+	  font-weight: 400;
+	  padding: 7px 30px;
+}
+
+.columns.partner a:hover{
+  	background-color: #f16321;
+	  color: white;
+}
+
+/* Technical Specifications */
+.columns.technical-specs a{
+  font-size: 15px;
+  background-color: white;
+  color: #0469e3;
+  font-weight: 400;
+  margin-top: 0px;
+  padding: 5px 30px 5px 0px;
+}
+
+.columns.technical-specs p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.columns.technical-specs div:first-child div a {
+  font-size: 11px;
+  font-weight: 600;
+  color: #0469e3;
+  float: right;
+  position: relative;
+  bottom: -20px;
+  padding: 0%;
 }

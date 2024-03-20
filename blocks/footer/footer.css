@@ -1,6 +1,6 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  background-color: #31302b;
   font-size: var(--body-font-size-s);
 }
 
@@ -12,3 +12,61 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+footer .footer .default-content-wrapper .button-container{
+  float: right;
+  margin-top: -38px;
+  border: none;
+
+}
+
+footer .footer .default-content-wrapper .button-container .button{
+  border: none;
+  color: #FFF;
+  background-color: #31302b;
+  padding-right: 0;
+}
+
+footer .footer .default-content-wrapper p {
+  color: #FFF;
+  font-size: 11px;
+}
+
+footer .columns-wrapper{
+  color:#FFF;
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:11px;
+}
+
+footer .columns-wrapper .columns-img-col img{
+  width: 98px;
+}
+
+footer .columns-wrapper a{
+  margin-left: 5px;
+}
+
+footer .columns-wrapper .columns-img-col{
+  text-align: center;
+  width: 98px;
+}
+
+footer .columns-wrapper .columns-3-cols div {
+  text-align: center;
+}
+
+footer .columns-wrapper .columns-img-col table{
+  float:right;
+  font-size:14px;
+}
+
+footer .columns-wrapper .columns-img-col table td{
+  padding-left: 10px;
+}
+
+footer .columns-wrapper .columns-img-col table a img{
+  width: 38px;
+  margin-bottom: 21px;
+}
+

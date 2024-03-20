@@ -270,6 +270,21 @@ header nav .nav-sections ul > li > ul > li {
 }
 
 /* tools */
-header nav .nav-tools {
+header nav .nav-tools { 
   grid-area: tools;
+  margin-bottom: auto;
+}
+
+header nav .nav-tools .cart{
+  position: relative;
+  left: 550px;
+  top: 12px;
+}
+
+header nav .nav-tools .sign-in{
+  position: relative;
+  left: 587px;
+  top: -25px;
+  font-size: 15px;
+  width: 150%;
 }
