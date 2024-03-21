@@ -95,8 +95,8 @@
 .cards > ul > li img {
   margin-top:15px;
   object-fit: cover;
-  max-width: 80px;
-  max-height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
 /* titles: Featured Categories, Most Popular, Resources, etc. */
