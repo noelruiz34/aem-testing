@@ -87,6 +87,8 @@
 /*to make all the sections closer together*/
 div.section{
   padding: 4px;
+  width: 1200px;
+  margin: auto;
 }
 /*for the message at the top of the page*/
 div[data-class="payment-message"]{
