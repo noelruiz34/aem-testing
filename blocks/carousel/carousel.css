@@ -1,5 +1,7 @@
 .carousel .carousel-slides-container {
   position: relative;
+  height: 14em;
+  width: 55em;
 }
 
 .carousel .carousel-slides,
