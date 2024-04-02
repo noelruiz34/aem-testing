@@ -77,6 +77,10 @@ async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
+  
+  var htmlHead = document.querySelector('head');  
+  htmlHead.innerHTML += '<link rel="preload" as="image" href="./media_1da93b8e13be42fd9f7bb5dd5edb182448bed9455.png?width=750&format=webply&optimize=medium" />'
+  
   if (main) {
     decorateMain(main);
     document.body.classList.add('appear');
