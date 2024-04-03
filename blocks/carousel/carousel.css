@@ -197,5 +197,6 @@ a.carousel-inner-button:hover {
   background-color: #ee8e07f5;
 }
 .carousel-wrapper {
-  width: 1200px;
+  width: 100%;
+  height: auto;
 }
